@@ -10,7 +10,7 @@
       "summary": "MongoDB provider with a T-SQL surface and mongosh passthrough.",
       "version": "1.0.0",
       "contract": ">=1.0 <2.0",
-      "minAppVersion": "0.4.0",
+      "minAppVersion": "0.1.0",
       "platforms": ["win-x64"],
       "providerIds": ["mongodb"],
       "url": "https://github.com/dwifuady/larik-mongodb/releases/download/v1.0.0/larik.mongodb-1.0.0-win-x64.zip",
@@ -21,3 +21,4 @@
     }
   ]
 }
+
