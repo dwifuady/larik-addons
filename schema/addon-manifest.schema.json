@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/dwifuady/larik-addons/main/schema/addon-manifest.schema.json",
+  "title": "Larik add-on manifest",
+  "description": "The larik-addon.json at the root of an add-on zip.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifestVersion",
+    "id",
+    "version",
+    "contract",
+    "providerIds",
+    "entryAssembly"
+  ],
+  "properties": {
+    "manifestVersion": { "const": 1 },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$"
+    },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "publisher": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "contract": {
+      "type": "string",
+      "pattern": "^>=\\d+(\\.\\d+){0,3} <\\d+(\\.\\d+){0,3}$"
+    },
+    "providerIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" }
+    },
+    "entryAssembly": {
+      "type": "string",
+      "pattern": "^[^/\\\\]+\\.dll$"
+    },
+    "platforms": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "enum": ["win-x64", "win-arm64"] }
+    },
+    "license": { "type": "string", "minLength": 1, "maxLength": 80 }
+  }
+}
