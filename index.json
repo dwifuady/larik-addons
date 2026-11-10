@@ -2,5 +2,22 @@
   "schemaVersion": 1,
   "channel": "all",
   "generatedAt": "2026-11-10T00:00:00Z",
-  "addons": []
+  "addons": [
+    {
+      "id": "larik.mongodb",
+      "name": "MongoDB",
+      "publisher": "Larik",
+      "summary": "MongoDB provider with a T-SQL surface and mongosh passthrough.",
+      "version": "1.0.0",
+      "contract": ">=1.0 <2.0",
+      "minAppVersion": "0.4.0",
+      "platforms": ["win-x64"],
+      "providerIds": ["mongodb"],
+      "url": "https://github.com/dwifuady/larik-mongodb/releases/download/v1.0.0/larik.mongodb-1.0.0-win-x64.zip",
+      "sha256": "1d8a4356885c379732290f0d38807b6d39f064089a4e9b90ba9f1bb7f2953d6f",
+      "sizeBytes": 2532518,
+      "license": "MIT",
+      "homepage": "https://github.com/dwifuady/larik-mongodb"
+    }
+  ]
 }
