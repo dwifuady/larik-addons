@@ -1,14 +1,14 @@
 # Larik add-ons
 
 The curated index for [Larik SQL Studio](https://github.com/dwifuady/larik-winui) database
-providers. The app reads one JSON file from this repository; provider code lives in the author's
-own repository and ships as a GitHub Release zip.
+**drivers, packaged as add-ons**. The app reads one JSON file from this repository; driver code
+lives in the author's own repository and ships as a GitHub Release zip.
 
 - [`official.json`](official.json) — the first-party index used by the Microsoft Store build.
 - [`index.json`](index.json) — the open index used by the installer, portable ZIP and winget builds.
 
 Nothing here is installed automatically. An entry only makes an add-on **offerable**; the user
-chooses it in the app's Add-ons page.
+chooses it in the app's Drivers page.
 
 ## How it works
 
