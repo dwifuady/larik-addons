@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "official",
-  "generatedAt": "2026-11-11T06:12:14Z",
+  "generatedAt": "2026-11-11T15:15:03Z",
   "addons": [
     {
       "id": "larik.mongodb",
@@ -24,14 +24,14 @@
       "name": "SQLite",
       "publisher": "Larik",
       "summary": "SQLite provider for local database files, with transactions and schema browsing.",
-      "version": "1.0.0",
-      "contract": ">=1.0 <2.0",
-      "minAppVersion": "0.1.0",
+      "version": "1.1.0",
+      "contract": ">=1.1 <2.0",
+      "minAppVersion": "0.1.1",
       "platforms": ["win-x64"],
       "providerIds": ["sqlite"],
-      "url": "https://github.com/dwifuady/larik-sqlite/releases/download/v1.0.0/larik.sqlite-1.0.0-win-x64.zip",
-      "sha256": "fa58417b94c7c6c9321ba054ec03f6ffeb7f1568f4881d66b2a0eb73224ae756",
-      "sizeBytes": 1262001,
+      "url": "https://github.com/dwifuady/larik-sqlite/releases/download/v1.1.0/larik.sqlite-1.1.0-win-x64.zip",
+      "sha256": "607ae08969d3212ae7005163591ce0f98656e53c90637d3b4c99387447f19971",
+      "sizeBytes": 1262116,
       "license": "MIT",
       "homepage": "https://github.com/dwifuady/larik-sqlite"
     }
